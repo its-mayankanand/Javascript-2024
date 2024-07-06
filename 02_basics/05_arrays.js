@@ -16,7 +16,8 @@ const JsUser = {
     email: "maya603@gmail.com"
 }
 
-console.log(typeof JsUser[mySym])  //string
+console.log( JsUser[mySym])  //string  //output - mykey1
+console.log(JsUser)
 
 //correct syntax is this only
 
