@@ -6,8 +6,29 @@
 // })
 //++++++++++++++++++++++++++++++++++++++++++++++
 
-const coding = ["js","ruby","java"]
+// const coding = ["js","ruby","java"]
 
-coding.forEach( (item) =>{
-    console.log(item)
+// coding.forEach( (item) =>{
+//     console.log(item)
+// })
+//++++++++++++++++++++++++++++++++++++++++++++++
+
+const myCoding = [
+    {
+       languageName: "javascript",
+       languageFileName: "js"
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+]
+
+myCoding.forEach( (item) => {
+    console.log(item.languageName)
 })
+
