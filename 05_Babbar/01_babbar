@@ -1,0 +1,17 @@
+//Arrays and Objects and all
+//reference type - Object , Array , Functions
+
+let obj = {
+    name: "Love",
+    age: 22,
+    weight : 75,
+    height: "6ft ",
+
+    greet: function()
+    {
+        console.log("Hello jee kaise ho saare")
+    }
+};
+console.log(obj);
+obj.greet();
+

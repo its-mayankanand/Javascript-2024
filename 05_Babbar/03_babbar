@@ -1,0 +1,11 @@
+//some built in methods or functions
+
+let brr = new Array('Love',1,true);
+brr.push('Babbar');
+brr.pop();
+brr.shift();
+brr.unshift('Love Babbar');
+console.log(brr);
+
+//shift - removes first element or leftmost
+//unshift - add at first item

@@ -1,0 +1,13 @@
+let brr = new Array('Love',1,true)
+brr.push(20)
+brr.push(30)
+brr.push(40)
+
+//console.log(brr.slice(2,4))
+brr.splice(1,2,'Kunal')   //iska mtlb 1 index se lekr 2 value remove kro and kunal insert kro
+console.log(brr)
+
+//splice method we can change the context
+//of array - insert , replace, remove
+
+

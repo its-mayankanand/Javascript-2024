@@ -1,0 +1,15 @@
+//creation af array
+//let arr = [1,2,3,4,5];
+//console.log(arr);
+//+++++++++++++++++++++++++++++++++++++++++
+//array constructor
+//let brr = new Array('Love',1,true);
+//console.log(brr);
+//+++++++++++++++++++++++++++++++++++++++++
+
+//Array access
+// let arr = ['Love' , 'Babbar' ,true,45]
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(arr[2]);
+//+++++++++++++++++++++++++++++++++++++++++
