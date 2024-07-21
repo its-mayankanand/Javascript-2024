@@ -1,0 +1,57 @@
+//function assigns to a variable
+// let greet = function()
+// {
+//    console.log("Greeting for the day")
+// }
+// greet();
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+//function can be passed as parameter also
+/*
+function greetMe(greet, fullName)
+{
+   console.log("hello ",fullName);
+   greet();
+}
+
+function greet()
+{
+    console.log("Greeting for the day")
+}
+
+greetMe(greet, "Babbar");
+*/
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/*
+const arr = [
+    function(a,b)
+    {
+        return a+b;
+    },
+    function(a,b)
+    {
+        return a-b;
+    },
+    function(a,b)
+    {
+       return a*b;
+    }
+];
+
+let first = arr[2];
+let ans = first(5,10);
+console.log(ans);
+
+*/
+//+++++++++++++++++++++++++++++++++++++++++++
+
+let obj = {
+    age:25,
+    wt: 36,
+    ht: 180,
+    greet: () =>{
+        console.log("hello Dunia");
+    }
+}
+
+console.log(obj.age)
+obj.greet();
