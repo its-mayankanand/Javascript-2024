@@ -1,0 +1,120 @@
+//Index of method
+/*
+let arr = [9,1,7,4,2,8]
+arr.sort()
+console.log(arr)
+console.log(arr.indexOf(9))
+*/
+//++++++++++++++++++++++++++++++++++
+/*
+// for each
+let arr = [10,20,30]
+
+let length = arr.length
+console.log("length: ",length);
+
+arr.forEach((value, index) => {
+    console.log("Number: ",value, "Index: ",index)
+
+})
+*/
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// for in loop mostly used in enumerable 
+//propertty - object
+/*
+let obj = {
+    name: "Love",
+    age: 25,
+    weight: 80,
+    height: "6ft",
+    greet: function(){
+        console.log("hello jee kaise ho saare")
+    }
+};
+
+for(let key in obj)
+{
+    console.log(key);
+}
+*/
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/*
+//lets print key with value
+let obj = {
+    name: "Love",
+    age: 25,
+    weight: 75,
+    height: "6ft",
+    greet: function(){
+        console.log("hello jee kaise ho saare")
+    }
+};
+
+for(let key in obj)
+{
+    console.log(key, " ",obj[key])
+}
+
+//obj[key] prints value of object
+*/
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//for - of loop mainly used in iterable object
+//like arrays , strings and all.
+
+/*
+let arr = [10,20,30,40]
+for(let value of arr)
+{
+    console.log(value)
+}
+*/
+
+//++++++++++++++++++++++++++++++
+//strings
+/*
+let fullName = "babbar"
+for(let value of fullName)
+{
+    console.log(value)
+}
+*/
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//How to pass Arrays in function and all
+/*
+let arr = [1,2,3,4,5,]
+
+function getSum(arr)
+{
+    let len = arr.length;
+    let sum = 0;
+    for(let index=0; index<len; index++)
+    {
+        sum = sum + arr[index];
+    }
+    return sum;
+}
+
+let totalSum = getSum(arr);
+console.log(totalSum)
+
+*/
+//++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//we can do the same by for each loop also
+
+let arr = [1,2,3,4,5]
+function getSum(arr)
+{
+    let sum=0;
+    arr.forEach((value) => {
+        sum = sum + value;
+    })
+    return sum;
+}
+
+let totalSum = getSum(arr);
+console.log(totalSum)
+//+++++++++++++++++++++++++++++++++++++++++++++

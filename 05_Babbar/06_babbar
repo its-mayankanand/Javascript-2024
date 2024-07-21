@@ -28,6 +28,10 @@ console.log(ans)
 */
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+//sort method
+let arr = [9,1,7,4,2,8]
+arr.sort()
+console.log(arr);
 
 
 
