@@ -1,0 +1,35 @@
+/* // filter method
+let arr = [1,2,'love','kunal',null]
+
+let ans = arr.filter((value) => {
+    if(typeof(value) == 'string')
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+});
+
+console.log(ans);
+*/
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Reduce method
+/*
+let arr = [10,20,30,40]
+
+let ans = arr.reduce((acc,curr) => {
+    return acc + curr;
+},10)
+
+console.log(ans)
+*/
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
